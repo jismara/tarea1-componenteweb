@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.componente {
+    background-color: #FFF3FB;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta {
+    background-color: #A3FFD4;
+    padding: 32px 32px;
+    border-radius: 32px;
+    box-shadow: 0px 4px 4px hsla(0, 0%, 0%, 0.025);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+
+
+}
+
+.nombre {
+    color:#F20C8B;
+    font-weight: lighter;
+    font-size: 40px;
+    
+}
+
+.boton {
+    display: inline-block;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 32px;
+    font-size: 20px;
+    color: #FC1F99;
+    text-decoration:none;
+    transition: 0.3s ease-in-out;
+
+}
+
+.boton:hover{
+    background-color: #FC1F99;
+    color: #FFFFFF;
+}
